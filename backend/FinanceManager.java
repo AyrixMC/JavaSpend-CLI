@@ -11,7 +11,6 @@ public class FinanceManager {
     }
 
     public double calculateTotal() {
-        // This will now work perfectly because getAmount() is in Transaction.java
         return history.stream().mapToDouble(t -> t.getAmount()).sum();
     }
 
