@@ -15,7 +15,6 @@ public class Transaction {
         this.type = type;
     }
 
-    // This is the core fix
     public double getAmount() {
         return amount;
     }
